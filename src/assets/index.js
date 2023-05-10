@@ -20,15 +20,26 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import azure from "./tech/azure.jpg";
+import dotnet from "./tech/dotnet.png";
+import jquery from "./tech/jquery.jpg";
+import sql from "./tech/sql.jpg";
+import xamarin from "./tech/xamarin.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Algoworks from "./company/Algoworks.png";
+import Teleone from "./company/Teleone.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import eventmanagement from "./eventmanagement.jpg";
+import Jobportal from "./Jobportal.png";
+import warehouse from "./warehouse.jpg";
+import ggsipulogo from "./ggsipulogo.png";
 
 export {
   logo,
@@ -59,4 +70,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  Algoworks,
+  Teleone,
+  azure,
+  dotnet,
+  jquery,
+  sql,
+  xamarin,
+  eventmanagement,
+  warehouse,
+  Jobportal,
+  ggsipulogo,
 };

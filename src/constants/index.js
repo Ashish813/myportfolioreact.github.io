@@ -15,14 +15,24 @@ import {
     git,
     figma,
     docker,
+    azure,
+    dotnet,
+    sql,
+    jquery,
+    xamarin,
     meta,
     starbucks,
     tesla,
     shopify,
+    Algoworks,
+    Teleone,
     carrent,
     jobit,
     tripguide,
     threejs,
+    warehouse,
+    eventmanagement,
+    Jobportal,
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +52,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Dot Net Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "React Js Developer",
+      icon: creator,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "React Native Developer",
+      icon: mobile,
     },
   ];
   
@@ -73,8 +83,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "DotNet",
+      icon: dotnet,
     },
     {
       name: "React JS",
@@ -85,16 +95,16 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Azure",
+      icon: azure,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Sql",
+      icon: sql,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Jquery",
+      icon: jquery,
     },
     {
       name: "Three JS",
@@ -109,18 +119,34 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Xamarin",
+      icon: xamarin,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Software Engineer/Full Stack",
+      company_name: "Algoworks Technology",
+      icon: Algoworks,
+      iconBg: "#E6DEDD",
+      date: "Dec 2021 - Present",
+      points: [
+        "Algoworks is a Top Digital Transformation company offering services in the field of Salesforce (Consulting, Customisation, Integration etc), Web/Mobile app Development and Devops",
+        "Worked closely in dot net core MVC applications , web API’s , backend services Integration and UI development using frontend technologies like React,css,javascript,jquery and html",
+        "Collaborated with the team in developing Job search and Event Management applications and added third party services like Docusign and module like job search and event module in the application",
+        // "Developing and maintaining web applications using React.js and other related technologies.",
+        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        // "Implementing responsive design and ensuring cross-browser compatibility.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Software Engineer/React.js",
+      company_name: "Algoworks Technology",
+      icon: Algoworks,
+      iconBg: "#E6DEDD",
+      date: "Dec 2021 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,44 +155,30 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Engineer/Backend",
+      company_name: "Algoworks Technology",
+      icon: Algoworks,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designing and developing scalable, high-performance backend systems using .NET Core, ASP.NET Web API, and/or ASP.NET Core Web API.",
+        "Developing and optimizing database schema and queries using Microsoft SQL Server or other relational databases, and utilizing ORM frameworks such as Entity Framework or Dapper.",
+        "Created different environments for clients like QA,Stage and Production using Azure,Aws and contributed in Managing Azure UI with tech like Azure ADB2C and ADB2C2 with backend web API’s.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Teleone",
+      icon: Teleone,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aug 2021 - Nov 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using React.js and other related technologies like jquery,javascript.",
+        "Contributed in bug fixes, did improvement in some modules for the organisational application.",
+        "Got hand on experience on the production applications.",
       ],
     },
+   
   ];
   
   const testimonials = [
@@ -198,33 +210,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Job Portal",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that  help job seekers find employment opportunities and assisting employers with their hiring needs.",
       tags: [
         {
-          name: "react",
+          name: "Dot Net MVC",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Sql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Javascript/Jquery",
           color: "pink-text-gradient",
         },
+        {
+          name: "Css",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
+      image: Jobportal,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Event Management",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Allows event planners to create, manage and organize events, including defining event details, dates, times, locations, speakers, sponsors and vendors.",
       tags: [
         {
-          name: "react",
+          name: "React Js",
           color: "blue-text-gradient",
         },
         {
@@ -232,32 +248,32 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: eventmanagement,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Warehouse Management",
+      description:
+        "Allows warehouse managers to track the movement of inventory within the warehouse, monitor stock levels, and manage replenishment and restocking and many more features",
+      tags: [
+        {
+          name: "Dotnet Core web API",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Entity Framework",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: warehouse,
       source_code_link: "https://github.com/",
     },
   ];

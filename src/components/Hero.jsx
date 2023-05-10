@@ -32,8 +32,8 @@ const Hero = () => {
             <div className='w-1   sm:h-80 h-40 violet-gradient ' />
         </div>
         <div className='flex flex-col'>
-          <h1 className={`${styles.heroHeadText}`}>Hii,I'm <span className='text-[#915eff]'>Ashish</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop Web Applications,Mobile Applications,user Interface using Javascript(React,React-Native and Node js)</p>
+          <h1 className='font-black text-white lg:text-[70px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2'>Hii,I'm <span className='text-[#915eff]'>Ashish</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 lg:text-[24px]  `}>I develop Web Applications,Mobile Applications and user Interface using Dot net technologies and Javascript(React,React-Native).</p>
         </div>
       </div>
       <ComputersCanvas/>
