@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolioreact.github.io/static/css/main.64a57c0e.css",
-    "main.js": "/myportfolioreact.github.io/static/js/main.7641a0e7.js",
+    "main.css": "/myportfolioreact.github.io/static/css/main.2ba46bac.css",
+    "main.js": "/myportfolioreact.github.io/static/js/main.6ea16bbd.js",
     "static/js/787.387af234.chunk.js": "/myportfolioreact.github.io/static/js/787.387af234.chunk.js",
     "static/media/tripguide.png": "/myportfolioreact.github.io/static/media/tripguide.991986c795ea140ba063.png",
     "static/media/herobg.png": "/myportfolioreact.github.io/static/media/herobg.ad33add2430e34307c33.png",
@@ -28,12 +28,12 @@
     "static/media/menu.svg": "/myportfolioreact.github.io/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
     "index.html": "/myportfolioreact.github.io/index.html",
     "static/media/threejs.svg": "/myportfolioreact.github.io/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
-    "main.64a57c0e.css.map": "/myportfolioreact.github.io/static/css/main.64a57c0e.css.map",
-    "main.7641a0e7.js.map": "/myportfolioreact.github.io/static/js/main.7641a0e7.js.map",
+    "main.2ba46bac.css.map": "/myportfolioreact.github.io/static/css/main.2ba46bac.css.map",
+    "main.6ea16bbd.js.map": "/myportfolioreact.github.io/static/js/main.6ea16bbd.js.map",
     "787.387af234.chunk.js.map": "/myportfolioreact.github.io/static/js/787.387af234.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64a57c0e.css",
-    "static/js/main.7641a0e7.js"
+    "static/css/main.2ba46bac.css",
+    "static/js/main.6ea16bbd.js"
   ]
 }
