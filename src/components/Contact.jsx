@@ -92,7 +92,7 @@ const handleSubmit=(e)=>{
             </span>
         <textarea rows={7}  name="message" value={form.message}  required
          onChange={handleChange}  placeholder="What do you want to say?"
-         className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none  border-none font-medium '  />
+         className='bg-tertiary py-4 px-6 placeholder:text-secondary resize-none text-white rounded-lg outline-none  border-none font-medium '  />
           </label>
 
           <button type='submit' 
