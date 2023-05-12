@@ -25,7 +25,7 @@ const Hero = () => {
   },[])
 
   return (
-    <section className='relative w-full h-[800px] mx-auto'>
+    <section className='relative w-full h-[800px] mx-auto mainpage'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl  flex flex-row`}>
         <div className='flex flex-col items-center'>
             <div className='w-5 h-5 rounded-full bg-[#915eff]'></div>
@@ -36,7 +36,9 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100 lg:text-[24px]  `}>I develop Web Applications,Mobile Applications and user Interface using Dot net technologies and Javascript(React,React-Native).</p>
         </div>
       </div>
-      <ComputersCanvas/>
+     {!isMobile && <ComputersCanvas/>
+
+  }
       <div className={`absolute xs:bottom-10 ${isMobile ? 'bottom-16' : 'bottom-32'}  w-full flex justify-center items-center`}>
         <a href="#about">
           <div className='w-[35px] h-[64px]
